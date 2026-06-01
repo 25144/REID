@@ -19,7 +19,6 @@ pip install -r requirements-video.txt
 Make a new folder named `data` under the root directory. Download the datasets and unzip them into `data` folder.
 * [Market1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
 * [MSMT17](https://arxiv.org/abs/1711.08565)
-* [VeRi776](https://github.com/JDAI-CV/VeRidataset)
 
 Large datasets are not committed to Git. The local `data/` directory is ignored by `.gitignore`.
 

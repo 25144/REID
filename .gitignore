@@ -1,0 +1,32 @@
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.DS_Store
+
+# Local datasets
+data/
+
+# Training logs, checkpoints, and generated outputs
+logs/
+outputs/*
+!outputs/.gitkeep
+
+# Model weights and generated feature banks
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+!requirements*.txt
+
+# Local galleries and demo inputs
+/gallery/
+/gallery_mot17/
+gallery_features*.pt
+/videos/
+
+# Tool caches
+.cache/
+wandb/
+runs/
